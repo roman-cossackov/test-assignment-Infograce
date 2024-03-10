@@ -1,0 +1,26 @@
+.Upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+  .button {
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px 15px 20px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+
+  .fileName {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+}
