@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tns:forestReforestation xmlns:ct="http://rosleshoz.gov.ru/xmlns/cTypes/4.2" xmlns:st="http://rosleshoz.gov.ru/xmlns/sTypes/4.2" xmlns:tns="http://rosleshoz.gov.ru/xmlns/forestReforestation/4.5" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<tns:serviceInfo>
+		<ct:provider>АВЕРС: Электронные документы лесопользователя, редакция 1.1.523750050</ct:provider>
+		<ct:version>4.5</ct:version>
+		<ct:name>forestReforestation</ct:name>
+		<ct:guid>a1937281-d13a-11ee-aefe-d516d75ad9a5</ct:guid>
+	</tns:serviceInfo>
+	<tns:number>2/2024</tns:number>
+	<tns:date>2024-01-15</tns:date>
+	<tns:header>
+		<tns:typeReforestation>искусственное</tns:typeReforestation>
+		<tns:subject id="24" name="Красноярский край" description=""/>
+		<tns:forestArea id="000000038" name="Среднесибирский подтаежно-лесостепной район" description=""/>
+		<tns:performer>
+			<ct:employee>
+				<ct:first_name>Иван</ct:first_name>
+				<ct:last_name>Козлов</ct:last_name>
+				<ct:patronimic_name>Иванович</ct:patronimic_name>
+				<ct:post>Директор</ct:post>
+				<ct:basisAuthority>Устав</ct:basisAuthority>
+				<ct:number/>
+				<ct:phone>8-911-231-029-12-22</ct:phone>
+			</ct:employee>
+			<ct:date>2024-01-15</ct:date>
+		</tns:performer>
+	</tns:header>
+	<tns:conditionsLocationForestArea>
+		<tns:location>
+			<ct:forestry id="G_01248" name="Большемуртинское" description=""/>
+			<ct:subforestry id="G_U2355" name="Таловское" description=""/>
+			<ct:tract name="" description=""/>
+			<ct:quarter>87</ct:quarter>
+			<ct:taxationUnit>32,34</ct:taxationUnit>
+		</tns:location>
+		<tns:area>4</tns:area>
+	</tns:conditionsLocationForestArea>
+	<tns:conditionsForestArea>
+		<tns:relief>равнинный</tns:relief>
+		<tns:hydrology>свежая</tns:hydrology>
+		<tns:soil>серая лесная, тяжело-суглинистая </tns:soil>
+	</tns:conditionsForestArea>
+	<tns:conditionsAreasForestArea>вырубка 2023</tns:conditionsAreasForestArea>
+	<tns:conditionsCutting>
+		<tns:numberStumps>0.2</tns:numberStumps>
+		<tns:treePlacement>стена леса</tns:treePlacement>
+		<tns:degreeSodding>средняя</tns:degreeSodding>
+		<tns:degreeMineralization>0</tns:degreeMineralization>
+		<tns:degreeCleaning>средняя (20 - 50 м.куб/га)</tns:degreeCleaning>
+		<tns:availabilityCategory>доступная</tns:availabilityCategory>
+	</tns:conditionsCutting>
+	<tns:conditionsUndergrowth>
+		<tns:treeComposition>6П4Е</tns:treeComposition>
+		<tns:averageAge>20</tns:averageAge>
+		<tns:averageHeight>2</tns:averageHeight>
+		<tns:numberTrees>1.5</tns:numberTrees>
+		<tns:placement>равномерное</tns:placement>
+		<tns:standCondition>нормальное</tns:standCondition>
+	</tns:conditionsUndergrowth>
+	<tns:conditionsProjectedMethod>искусственное лесовосстановление</tns:conditionsProjectedMethod>
+	<tns:grounding>Согласно приложению 22 к Правилам лесовосстановления</tns:grounding>
+	<tns:timingTechnologiesReforestation>Обработка почвы полосами шириной 3,7м, трактор Shantui CD с ножом весна 2024г.Посадка сеянцами с ЗКС,ручная под меч Колесова,расстояние между центрами полос 8м,расстояние между рядами в полосах 2,5м,шаг посадки 0,99м, 2,525 тыс.шт/га.</tns:timingTechnologiesReforestation>
+	<tns:timingTechnologiesAgrotechnicalCare>1-й год- агротехнический,лесоводственный; 2-й год- агротехнический,лесоводственный; 3-й год- агротехнический,лесоводственный; 4-й год- агротехнический,лесоводственный; 5-й год- агротехнический,лесоводственный.</tns:timingTechnologiesAgrotechnicalCare>
+	<tns:timingTechnologiesSilviculturalCare>-</tns:timingTechnologiesSilviculturalCare>
+	<tns:plantingMaterialRequirements>
+		<tns:row>
+			<tns:tree>ель сибирская</tns:tree>
+			<tns:type>сеянцы с ОКС</tns:type>
+			<tns:age>не менее 2</tns:age>
+			<tns:height>не менее 10</tns:height>
+			<tns:diameter>не менее 2 </tns:diameter>
+		</tns:row>
+	</tns:plantingMaterialRequirements>
+	<tns:characteristicSowings/>
+	<tns:youngGrowthRequirements>
+		<tns:row>
+			<tns:tree>ель сибирская</tns:tree>
+			<tns:age>10</tns:age>
+			<tns:numberTrees>1,7</tns:numberTrees>
+			<tns:averageHeight>0,8</tns:averageHeight>
+		</tns:row>
+	</tns:youngGrowthRequirements>
+	<tns:reforestationArea>4</tns:reforestationArea>
+	<tns:projectedScopeWork>
+		<tns:area>4</tns:area>
+		<tns:numberTrees>2.525</tns:numberTrees>
+		<tns:totalNumberTrees>10.1</tns:totalNumberTrees>
+	</tns:projectedScopeWork>
+	<tns:attachments>
+		<tns:file>
+			<ct:id>4,0 га_e8acdaf5-d6b2-11ee-af05-e603c557c745.pdf</ct:id>
+			<ct:name>4,0 га_e8acdaf5-d6b2-11ee-af05-e603c557c745.pdf</ct:name>
+			<ct:extension>pdf</ct:extension>
+		</tns:file>
+		<tns:file>
+			<ct:id>кар 75-10,12,13.pdf</ct:id>
+			<ct:name>кар 75-10,12,13.pdf</ct:name>
+			<ct:extension>pdf</ct:extension>
+		</tns:file>
+		<tns:file>
+			<ct:id>пер 75-10,12,13.pdf</ct:id>
+			<ct:name>пер 75-10,12,13.pdf</ct:name>
+			<ct:extension>pdf</ct:extension>
+		</tns:file>
+	</tns:attachments>
+	<tns:schemeObject>
+		<tns:row>
+			<tns:location>
+				<ct:forestry id="G_01248" name="Большемуртинское" description=""/>
+				<ct:subforestry id="G_U2355" name="Таловское" description=""/>
+				<ct:tract name="" description=""/>
+				<ct:quarter>87</ct:quarter>
+				<ct:taxationUnit>32,34</ct:taxationUnit>
+				<ct:cuttingArea>1</ct:cuttingArea>
+			</tns:location>
+			<tns:scale>1:10 000</tns:scale>
+			<tns:fileID>4,0 га_e8acdaf5-d6b2-11ee-af05-e603c557c745.pdf</tns:fileID>
+		</tns:row>
+	</tns:schemeObject>
+	<tns:locationInformation>
+		<tns:row>
+			<tns:location>
+				<ct:forestry id="G_01248" name="Большемуртинское" description=""/>
+				<ct:subforestry id="G_U2355" name="Таловское" description=""/>
+				<ct:tract name="" description=""/>
+				<ct:quarter>87</ct:quarter>
+				<ct:taxationUnit>32,34</ct:taxationUnit>
+			</tns:location>
+			<tns:objectNumber>1</tns:objectNumber>
+			<tns:overallArea>4</tns:overallArea>
+			<tns:usageArea>4</tns:usageArea>
+			<tns:explication>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>1</tns:numberBegin>
+					<tns:numberEnd>2</tns:numberEnd>
+					<tns:lineDirection>СЗ</tns:lineDirection>
+					<tns:lineLength>877</tns:lineLength>
+					<tns:longitude>92.86764</tns:longitude>
+					<tns:latitude>57.17617</tns:latitude>
+				</tns:row>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>2</tns:numberBegin>
+					<tns:numberEnd>3</tns:numberEnd>
+					<tns:lineDirection>ЮЗ</tns:lineDirection>
+					<tns:lineLength>250</tns:lineLength>
+					<tns:longitude>92.8531</tns:longitude>
+					<tns:latitude>57.1763</tns:latitude>
+				</tns:row>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>3</tns:numberBegin>
+					<tns:numberEnd>4</tns:numberEnd>
+					<tns:lineDirection>С</tns:lineDirection>
+					<tns:lineLength>305</tns:lineLength>
+					<tns:longitude>92.84892</tns:longitude>
+					<tns:latitude>57.17618</tns:latitude>
+				</tns:row>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>4</tns:numberBegin>
+					<tns:numberEnd>5</tns:numberEnd>
+					<tns:lineDirection>В</tns:lineDirection>
+					<tns:lineLength>102</tns:lineLength>
+					<tns:longitude>92.84892</tns:longitude>
+					<tns:latitude>57.17892</tns:latitude>
+				</tns:row>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>5</tns:numberBegin>
+					<tns:numberEnd>6</tns:numberEnd>
+					<tns:lineDirection>ЮЗ</tns:lineDirection>
+					<tns:lineLength>168</tns:lineLength>
+					<tns:longitude>92.8505</tns:longitude>
+					<tns:latitude>57.17892</tns:latitude>
+				</tns:row>
+				<tns:row>
+					<tns:objectNumber>1</tns:objectNumber>
+					<tns:numberBegin>6</tns:numberBegin>
+					<tns:numberEnd>1</tns:numberEnd>
+					<tns:lineDirection>ЮВ</tns:lineDirection>
+					<tns:lineLength>200</tns:lineLength>
+					<tns:longitude>92.85055</tns:longitude>
+					<tns:latitude>57.17743</tns:latitude>
+				</tns:row>
+			</tns:explication>
+		</tns:row>
+	</tns:locationInformation>
+</tns:forestReforestation>

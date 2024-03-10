@@ -36,7 +36,7 @@ const Upload = ({ setData, allowedExtension }: UploadProps) => {
         Загрузить файл
       </label>
       <input type="file" id="upload" onChange={handleFileChange} hidden />
-      <h2>{fileName && <div className={styles.fileName}>{fileName}</div>}</h2>
+      <h2>{fileName && <div className={styles.fileName}>Имя файла: {fileName}</div>}</h2>
     </div>
   );
 };

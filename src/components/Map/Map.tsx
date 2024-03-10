@@ -1,8 +1,8 @@
 import 'leaflet/dist/leaflet.css';
 
-import { LatLngExpression, LatLngTuple } from 'leaflet';
-import { ReactNode, useEffect, useRef, useState } from 'react';
-import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet';
+import { LatLngTuple } from 'leaflet';
+import { ReactNode, useEffect, useRef } from 'react';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 import { MapController } from '../MapController/MapController';
 import styles from './Map.module.scss';

@@ -2,7 +2,7 @@ import './App.css';
 
 import { LatLngTuple } from 'leaflet';
 import { ReactNode, useEffect, useState } from 'react';
-import { Polygon, useMap } from 'react-leaflet';
+import { Polygon, Popup } from 'react-leaflet';
 import xmlJs from 'xml-js';
 
 import Map from './components/Map/Map';
@@ -60,7 +60,14 @@ function App() {
       positions.push([+arr[0], +arr[1]]);
     });
 
-    const polygon = <Polygon pathOptions={pathOptions} positions={positions} />;
+    const polygon = (
+      <Polygon pathOptions={pathOptions} positions={positions}>
+        <Popup>
+          <div>Номер объекта: {attributes?.number}</div>
+          <div>Дата объекта: {attributes?.date}</div>
+        </Popup>
+      </Polygon>
+    );
 
     setPolygon(polygon);
     setCurLocation(positions[0]);
@@ -69,7 +76,19 @@ function App() {
   return (
     <div className="App">
       <Upload setData={setData} allowedExtension="xml" />
-      <div className="coordinates">Координаты:</div>
+      {attributes ? (
+        <div className="coordinates">
+          <h2>Координаты</h2>
+          <div>
+            {attributes.coordinates.map((c, index) => (
+              <div key={index}>{c.join(', ')}</div>
+            ))}{' '}
+          </div>
+        </div>
+      ) : (
+        ''
+      )}
+
       <Map polygon={polygon} curLocation={curLocation} scrollIntoView={true} />
     </div>
   );
