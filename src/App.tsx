@@ -1,9 +1,9 @@
 import './App.css';
 
+import { XMLParser } from 'fast-xml-parser';
 import { LatLngTuple } from 'leaflet';
 import { ReactNode, useEffect, useState } from 'react';
 import { Polygon, Popup } from 'react-leaflet';
-import xmlJs from 'xml-js';
 
 import Map from './components/Map/Map';
 import Upload from './components/Upload/Upload';
@@ -28,24 +28,23 @@ function App() {
     reader.onload = (e) => {
       const xmlString = e.target?.result as string;
 
-      const jsonData = xmlJs.xml2json(xmlString, { compact: true, spaces: 4 });
-      const parsedJsonData = JSON.parse(jsonData);
+      //   const jsonData = xmlJs.xml2json(xmlString, { compact: true, spaces: 4 });
+      const parser = new XMLParser();
+      const parsedJsonData = parser.parse(xmlString);
 
       const coordinates: string[][] = [];
       parsedJsonData['tns:forestReforestation']['tns:locationInformation']['tns:row'][
         'tns:explication'
       ]['tns:row'].forEach((point: any) => {
-        coordinates.push([
-          point['tns:latitude']['_text'],
-          point['tns:longitude']['_text'],
-        ]);
+        coordinates.push([point['tns:latitude'], point['tns:longitude']]);
       });
 
       const attributes = {
-        number: parsedJsonData['tns:forestReforestation']['tns:number']['_text'],
-        date: parsedJsonData['tns:forestReforestation']['tns:date']['_text'],
+        number: parsedJsonData['tns:forestReforestation']['tns:number'],
+        date: parsedJsonData['tns:forestReforestation']['tns:date'],
         coordinates: coordinates,
       };
+      console.log(attributes);
 
       setAttributes(attributes);
     };
