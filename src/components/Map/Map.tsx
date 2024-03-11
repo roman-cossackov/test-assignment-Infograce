@@ -30,11 +30,6 @@ const Map = ({ polygon, curLocation, scrollIntoView }: MapProps) => {
       >
         <TileLayer url="https://tile.opentopomap.org/{z}/{x}/{y}.png" />
         <MapController location={curLocation} />
-        <Marker position={[51.505, -0.09]}>
-          <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
-          </Popup>
-        </Marker>
         {polygon ?? ''}
       </MapContainer>
     </div>
